@@ -12,7 +12,7 @@ fn main() {
     loop {
         println!("Please input your guess: ");
 
-        let mut guess = String::new(); //returns a new instance of a String.
+        let mut guess = String::new(); //returns a new instance of a String
 
         io::stdin()
             .read_line(&mut guess)
